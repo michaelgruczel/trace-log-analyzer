@@ -29,5 +29,7 @@ test {
         junitXml.enabled = false
         html.enabled = true
     }
+    maxHeapSize = "8192m"
+    // needed for big sample (not included in repo)
 
 }
